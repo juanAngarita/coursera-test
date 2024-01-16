@@ -1,0 +1,42 @@
+.navbar-brand {
+    padding-top: 15px;
+  }
+
+.navbar-brand h1{
+    text-transform: capitalize;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    font-weight: bold;
+    color: #000;
+}
+#links{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+#navbarSupportedContent{
+    padding: 0;
+}
+
+
+#links a{
+    border-top: solid 1px #000;
+    color: #000;
+}
+#links li:nth-child(3){
+    border-bottom: solid 1px #000;
+    color: #000;
+}
+
+#chicken{
+    height: 1000px;
+    background-color: lightslategrey;
+}
+
+.container-fluid .row{
+    padding: 0 15px;
+    margin: 0;
+}
